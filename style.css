@@ -1,0 +1,27 @@
+body{
+    color: aliceblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(98, 172, 238)
+}
+#texto{
+    font-size: 150%;
+    padding: 2%;
+}
+#confirm{
+    padding: 6%;
+    font-size: 130%;
+    transition: 1s;
+    cursor: pointer;
+}
+#confirm:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+}
